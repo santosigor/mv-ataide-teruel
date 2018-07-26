@@ -5,31 +5,52 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Igor dos Santos - Front End Developer">
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <title>MV - Ataíde Teruel</title>
+    <link rel="shortcut icon" href="images/favicon.png">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
-    <title>MV - Ataíde Teruel</title>
   </head>
   <body>
 
-    <header class="d-flex align-items-center">
-      <div class="container text-center">
-        <div class="inicio">
-
-					<img src="images/ataide.jpg" alt="">
-
-          <h1 class="text-uppercase text-white">1000 já apoiaram</h1>
-          <h3 class="text-uppercase text-white">Apoie você também, <span class="p-2 bg-info">Ataíde Teruel [o novo]</span></h3>
-
-          <form class="form-inline">
-            <input type="text" class="form-control mb-2 mr-sm-2" id="seunome" placeholder="Seu Nome">
-            <input type="text" class="form-control mb-2 mr-sm-2" id="seuemail" placeholder="Seu Email">
-            <a href="confirmar.php" class="btn btn-warning mb-2"><b>APOIAR</b></a>
-          </form>
-
-        </div>
+    <header>
+      <div class="container">
+        <div class="row">
+        	<div class="col-md-8">
+						<img src="images/logo-header.png" alt="" class="logo-header">
+						<img src="images/foto-header.png" alt="" class="img-fluid">
+	      	</div>
+        	<div class="col-md-4">
+						<form class="form-inline">
+							<div class="text-center">
+								<span class="text-uppercase">Junte-se à minha campanha</span><br>
+								<span>Para informações e atualizações</span>
+							</div>
+	            <input type="text" class="form-control mb-2" id="nome" placeholder="Seu Nome">
+	            <input type="text" class="form-control mb-2" id="email" placeholder="Seu Email">
+	            <input type="text" class="form-control mb-2 mr-sm-2" id="nascimento" placeholder="Seu Nascimento">
+	            <input type="text" class="form-control mb-2" id="celular" placeholder="Celular">
+	            <input type="text" class="form-control mb-2" id="cidade" placeholder="Cidade">
+	            <button type="submit" class="btn p-2"><b>JUNTE-SE A MIM</b></button>
+	          </form>
+	      	</div>
+	      </div>
       </div>
-      <div id="scroll" class="text-center"><a href="#frase" class="acr"><span></span>Scroll</a></div>
     </header>
+
+    <Br>
+
+    <div class="container">
+      <div class="row">
+      	<div class="col-md-2">
+					<img src="images/logo-menu.png" alt="" class="img-fluid">
+      	</div>
+      </div>
+    </div>
+
+    <Br>
 
     <div class="frase d-flex align-items-center" id="frase">
       <div class="container text-center">
