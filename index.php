@@ -40,17 +40,25 @@
       </div>
     </header>
 
-    <Br>
-
-    <div class="container">
-      <div class="row">
-      	<div class="col-md-2">
-					<img src="images/logo-menu.png" alt="" class="img-fluid">
-      	</div>
+    <nav class="menu-desk">
+    	<div class="container clearfix">
+				<img src="images/logo-menu.png" alt="" class="logo">
+				<ul class="float-right">
+					<li>VÍDEO</li>
+					<li>POR QUE ATAIDE?</li>
+					<li>CONTATO</li>
+					<li>AJUDE-NOS</li>	
+				</ul>
       </div>
-    </div>
+		</nav>
 
-    <Br>
+    <section>
+    	<div class="container">
+	    	<div class="video-container">
+	    		<iframe src="https://www.youtube.com/embed/thV2k1Ws3x0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	    	</div>
+    	</div>
+    </section>
 
     <div class="frase d-flex align-items-center" id="frase">
       <div class="container text-center">
