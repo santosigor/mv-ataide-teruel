@@ -71,7 +71,7 @@
 
     <section>
     	<div class="container">
-    		<h1>É hora de uma revolução política:<br> 07 de Outubro vote 19001 para Deputado Estadual.</h1>
+    		<h1><small>É hora de uma revolução política:</small><br> 07 de Outubro vote 19001 para Deputado Estadual.</h1>
     		<p>
     			Ataide Teruel está concorrendo ao Congresso para lutar por uma sociedade mais justa e que funcione para todos - não apenas para os mais ricos.
     		</p>
@@ -84,31 +84,38 @@
     	</div>
 		</section>
 
-		<div class="mudanca">
-			<section>
-	    	<div class="container">
-	    		<div class="row">
-	    			<div class="col-md-6">
-	    				<img src="images/" alt="">
-	    			</div>
-	    			<div class="col-md-6">
-		    			<h1>Nós não precisamos apenas de esperança. Precisamos é de MAIS esperança.</h1>
-			    		<p>
-			    			Temos que acreditar que é possivel sim contruirmos uma sociedade mais justa e humana. Com  Fábio Teruel no rádio e o Ataide no congresso, poderemos ajudar mais fazer muito mais!  É hora de uma sociedade que funcione para todos . 
-			    		</p>
-			    		<p>
-			    			<b>
-			    				No dia 7 de outubro podemos fazer isso acontecer. Não apenas queira a mudança, ajude a promover essa mudança  #VouFazerMinhaParte
-			    			</b>
-			    		</p>
-			    		<p>
-			    			Para melhorar nossa situação, temos que enfrentar com coragem as pessoas poderosas e corruptas que impedem o desenvolvimento do nosso estado. Não há outro caminho. É por isso que colocamos nossa fé e nossos esforços nas pessoas, famílias e comunidades do distrito. Famílias trabalhadoras não devem lutar para sobreviver, ter medo de sair às ruas e sofrer na hora que precisa de um atendimento médico. Nós pagamos muitos impostos. É hora de uma sociedade que funcione para todos.
-			    		</p>
-	    			</div>
-	    		</div>
-	    	</div>
-			</section>
-		</div>
+		<section class="mudanca">
+    	<div class="container">
+    		<img src="images/foto-esperanca.png" alt="" class="foto-esperanca">
+    		<div class="row">
+    			<div class="col-md-6"></div>
+    			<div class="col-md-6">
+	    			<h1>Nós não precisamos apenas de esperança. Precisamos é de MAIS esperança.</h1>
+		    		<p>
+		    			Temos que acreditar que é possivel sim contruirmos uma sociedade mais justa e humana. Com  Fábio Teruel no rádio e o Ataide no congresso, poderemos ajudar mais fazer muito mais!  É hora de uma sociedade que funcione para todos . 
+		    		</p>
+		    		<p>
+		    			<b>No dia 7 de outubro podemos fazer isso acontecer. Não apenas queira a mudança, ajude a promover essa mudança #VouFazerMinhaParte</b>
+		    		</p>
+		    		<p>
+		    			Para melhorar nossa situação, temos que enfrentar com coragem as pessoas poderosas e corruptas que impedem o desenvolvimento do nosso estado. Não há outro caminho. É por isso que colocamos nossa fé e nossos esforços nas pessoas, famílias e comunidades do distrito. Famílias trabalhadoras não devem lutar para sobreviver, ter medo de sair às ruas e sofrer na hora que precisa de um atendimento médico. Nós pagamos muitos impostos. É hora de uma sociedade que funcione para todos.
+		    		</p>
+    			</div>
+    		</div>
+    	</div>
+		</section>
+
+		<section>
+    	<div class="container">
+    		<h1>Por que devo apoiar o Ataide?</h1>
+    		<p>
+    			São Paulo merece um líder que nos devolva a confiança na classe política. Alguém que trabalhe de verdade pelas pessoas que nele votarem.
+    		</p>
+    		<p>
+    			Ataide Teruel é um homem da comunicação, que sabe da importância de usar a sua voz para defender os direitos da classe tão sofrida, humilhada  e cansada de políticos bandidos, sujos e corruptos.
+    		</p>
+    	</div>
+		</section>
 
 
 
@@ -124,8 +131,10 @@
 
 
     <div class="frase d-flex align-items-center" id="frase">
-      <div class="container text-center">
-        <h1 class="text-uppercase text-white">EU ACREDITO EM UM BRASIL MELHOR COM <span class="text-info">ATAÍDE TERUEL</span></h1>
+      <div class="container">
+        <h1 class="text-uppercase text-white">
+        	
+        </h1>
       </div>
     </div>
 
