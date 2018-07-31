@@ -3,7 +3,7 @@ $(document).ready(function() {
   // Ancora
   $('.acr').on('click', function(e) {
     e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 800, 'linear');
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top -140}, 800, 'linear');
   });
 
   // Fixa menu

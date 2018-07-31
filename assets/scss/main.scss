@@ -29,6 +29,10 @@ h1 {
   margin-bottom: 1.5rem;
 }
 
+h3 {
+	font-family: 'robotoslab-bold';
+}
+
 p {
 	font-family: 'metropolis-regular';
   font-weight: 400;
@@ -101,25 +105,39 @@ nav.mn-desktop {
 		margin-left:60px;
 		li {
 			display: inline-block;
-	    text-transform: uppercase;
-	    color: #3c2d82;
-	    cursor: pointer;
-	    font-family: 'robotoslab-bold';
-	    padding: .75em 1em;
-	    margin-left: .75em;
-	    -webkit-transition: all .1s;
-    	transition: all .1s;
-    	border-radius: .25rem;
-	    &:hover {
-    		color: #8c74ff;
-			}
-			&.ajude {
-				color: #fff;
-    		background-color: rgba(80,192,32,.83);
-	    	margin-left: 1.5em;
-    		&:hover {
-    			background-color: #83f353;
-    		}
+			a {
+				display: inline-block;
+		    text-transform: uppercase;
+		    color: #3c2d82;
+		    cursor: pointer;
+		    font-family: 'robotoslab-bold';
+		    padding: .75em .25em;
+		    margin-left: .75em;
+		    -webkit-transition: all .1s;
+	    	transition: all .1s;
+	    	border-radius: .25rem;
+	    	text-decoration:none;
+		    &:hover {
+	    		color: #8c74ff;
+				}
+				&.ajude {
+					color: #fff;
+	    		background-color: rgba(80,192,32,.83);
+		    	margin-right: .25em;
+		    	padding: .75em 1em;
+	    		&:hover {
+	    			background-color: #83f353;
+	    		}
+				}
+				&.minhaparte {
+					color: #fff;
+	    		background-color: #3c2d82;
+		    	margin-left: 1em;
+		    	padding: .75em 1em;
+	    		&:hover {
+	    			background-color: #8c74ff;
+	    		}
+				}
 			}
 		}
 	}
@@ -146,6 +164,11 @@ nav.mn-desktop {
 	}
 }
 
+.title-porque {
+	font-size: 3.5em;
+	margin: 60px 0;
+}
+
 section {
 	padding: 60px 0;
 	&.mudanca {
@@ -156,124 +179,71 @@ section {
 			padding: 60px 15px;
 			.foto-esperanca {
 				position: absolute;
-				bottom:0;
-				left:-90px;
-				width:100%;
-				max-width: 660px;
+				bottom: 0;
+		    left: -110px;
+		    width: 100%;
+		    max-width: 700px;
 			}
 		}
 	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.frase {
-	background: #000;
-	@media (max-width: 991.98px) {
-		padding: 60px 0;
-		min-height: 50vh;
+	&.porque {
+		background: #3c2d82;
+		overflow: hidden;
+		color:#fff;
+		position: relative;
+		.bg {
+			position: absolute;
+			top: 0;
+			right:0;
+			width:50%;
+			height:100%;
+			background: url('../../images/foto-porque.jpg') no-repeat;
+		}
 	}
-	@media (min-width: 992px) {
-		padding: 120px 0;
-		height: 100vh;
-		max-height: 535px;
-		h1 {
-		  line-height: 5.0rem;
-		}	
+	&.compartilhar{
+		background: #ededed;
+		.item-comp {
+			display:inline-block;
+	    background-color: rgba(80,192,32,.83);
+	    border-radius: 50%;
+	    margin-top: 2.5em;
+		}
 	}
-}
-
-.causa {
-	padding: 60px 0;
-	@media (min-width: 992px) {
-		padding: 120px 0;
+	&.frase {
+		padding: 80px 0;
+		a {
+			display: inline-block;
+			margin-top: 1.5em;
+	    font-family: 'robotoslab-bold';
+	    padding: .75em .25em;
+	    -webkit-transition: all .1s;
+    	transition: all .1s;
+    	border-radius: .25rem;
+			color: #fff;
+  		background-color: #3c2d82;
+    	margin-left: 1em;
+    	padding: .75em 1em;
+    	text-decoration:none;
+  		&:hover {
+  			background-color: #8c74ff;
+  		}
+		}
 	}
-	background: #ffffff;
-	ol {
-		margin:0;
-		padding:0;
-		list-style: none;
-		counter-reset: li;
-		li {
-			position: relative;
-			padding-left:50px;
-			margin-bottom: 1rem;
-			&:before {
-				content:'';
-				content: counter(li); 
-				counter-increment:li;
-				position: absolute;
-				left:0;
-				width: 35px;
-				height: 35px;
-				border-radius: 100%;
-		    padding-top: 6px;
-		    background: #ffc107;
-		    text-align: center;
+	&.contato-wp {
+			background: #4c3e8b;
+		.contato {
+			form {
+				background-color: #5a4d95;
+				border-top: .25em solid #675b9d;
+		    border-bottom: .25em solid #3c2d82;
 			}
-		}
-	}
-}
-
-.frase-2-wp {
-	background-color: #ffffff;
-	.frase-2 {
-		padding: 60px 0;
-		@media (min-width: 992px) {
-			padding: 120px 0;
-		}
-		background-image: url("../../images/mask.png");
-	}
-}
-
-.ajude {
-	padding: 60px 0;
-	@media (min-width: 992px) {
-		padding: 120px 0;
-	}
-	background-color: #fff;
-	.img-bg {
-		width: 150px;
-		height: 150px;
-		border-radius:100%;
-		display: inline-block;
-		margin: 30px 0 20px 0;
-		padding-top:38px;
-		@media (min-width: 992px) {
-			margin-top: 0;
-		}
-		img {
-			max-width:70px;
 		}
 	}
 }
 
 footer {
 	padding: 60px 0;
-	@media (min-width: 992px) {
-		padding: 120px 0;
-	}
-	.btn {
-		border-radius: 30px;
-		width: 200px;
-		padding: 1rem;
-	}
-	hr {
-		border-top: 1px solid rgba(255,255,255,.1);
-	}
+	background: #444444;
 }
 
 // Extra small devices (portrait phones, less than 576px)

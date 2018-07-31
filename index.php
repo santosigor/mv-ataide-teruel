@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Igor dos Santos - Front End Developer">
+    <meta name="author" content="Tecnegócios - Soluções WEB">
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
-    <title>MV - Ataíde Teruel</title>
+    <title>Ataíde Teruel 2018: Vote 19001</title>
     <link rel="shortcut icon" href="images/favicon.png">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
@@ -44,13 +44,14 @@
     	<div class="container clearfix">
 				<img src="images/logo-menu.png" alt="" class="logo float-left">
 				<ul class="float-left">
-					<li>VÍDEO</li>
-					<li>POR QUE ATAIDE?</li>
-					<li>CONTATO</li>
-					<li class="ajude">AJUDE-NOS</li>	
+					<li><a href="#" class="acr ajude">AJUDE-NOS</a></li>
+					<li><a href="#video" class="acr">VÍDEO</a></li>
+					<li><a href="#esperanca" class="acr">ESPERANÇA</a></li>
+					<li><a href="#porque" class="acr">POR QUE ATAIDE?</a></li>
+					<li><a href="#10amigos minhaparte" class="acr minhaparte">Convide 10 amigos</a></li>
 				</ul>
 				<div class="social-icons float-right">
-          <a href="https://www.facebook.com/" target="_blank" title="Facebook">
+          <a href="https://www.facebook.com/ataideteruel/" target="_blank" title="Facebook">
 						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 249.6 244.3" style="enable-background:new 0 0 249.6 244.3; height: 40px;" xml:space="preserve"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;fill: #3C2D82;}.st1{fill: #3C2D82;}</style><g><path class="st0" d="M133.5,177.5V124h17.3l2.6-20.8h-19.8V89.9c0-6,1.6-10.1,9.9-10.1l10.6,0V61.2c-1.8-0.3-8.1-0.8-15.5-0.8c-15.3,0-25.8,9.7-25.8,27.5v15.4H95.5V124h17.3v53.4H133.5z"></path><path class="st1" d="M124.8,238.9c-64.4,0-116.7-52.4-116.7-116.7C8.1,57.8,60.4,5.4,124.8,5.4c64.4,0,116.7,52.4,116.7,116.7C241.5,186.5,189.1,238.9,124.8,238.9z M124.8,24.2c-54,0-98,44-98,98c0,54,44,98,98,98c54,0,98-44,98-98C222.8,68.1,178.8,24.2,124.8,24.2z"></path></g></svg>
           </a>
           <a href="https://twitter.com/" target="_blank" title="Twitter">
@@ -63,9 +64,9 @@
       </div>
 		</nav>
 
-  	<div class="container">
+  	<div class="container" id="video">
     	<div class="video-container">
-    		<iframe src="https://www.youtube.com/embed/thV2k1Ws3x0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    		<iframe src="https://www.youtube.com/embed/Eppo6dMzGY0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     	</div>
   	</div>
 
@@ -84,7 +85,7 @@
     	</div>
 		</section>
 
-		<section class="mudanca">
+		<section class="mudanca" id="esperanca">
     	<div class="container">
     		<img src="images/foto-esperanca.png" alt="" class="foto-esperanca">
     		<div class="row">
@@ -95,9 +96,6 @@
 		    			Temos que acreditar que é possivel sim contruirmos uma sociedade mais justa e humana. Com  Fábio Teruel no rádio e o Ataide no congresso, poderemos ajudar mais fazer muito mais!  É hora de uma sociedade que funcione para todos . 
 		    		</p>
 		    		<p>
-		    			<b>No dia 7 de outubro podemos fazer isso acontecer. Não apenas queira a mudança, ajude a promover essa mudança #VouFazerMinhaParte</b>
-		    		</p>
-		    		<p>
 		    			Para melhorar nossa situação, temos que enfrentar com coragem as pessoas poderosas e corruptas que impedem o desenvolvimento do nosso estado. Não há outro caminho. É por isso que colocamos nossa fé e nossos esforços nas pessoas, famílias e comunidades do distrito. Famílias trabalhadoras não devem lutar para sobreviver, ter medo de sair às ruas e sofrer na hora que precisa de um atendimento médico. Nós pagamos muitos impostos. É hora de uma sociedade que funcione para todos.
 		    		</p>
     			</div>
@@ -105,106 +103,65 @@
     	</div>
 		</section>
 
-		<section>
+		<span id="porque"></span>
+
+    <h1 class="text-center title-porque">Por que devo apoiar o Ataide?</h1>
+		<section class="porque">
     	<div class="container">
-    		<h1>Por que devo apoiar o Ataide?</h1>
-    		<p>
-    			São Paulo merece um líder que nos devolva a confiança na classe política. Alguém que trabalhe de verdade pelas pessoas que nele votarem.
-    		</p>
-    		<p>
-    			Ataide Teruel é um homem da comunicação, que sabe da importância de usar a sua voz para defender os direitos da classe tão sofrida, humilhada  e cansada de políticos bandidos, sujos e corruptos.
-    		</p>
+    		<div class="row">
+    			<div class="col-md-5">
+		    		<p>
+		    			São Paulo merece um líder que nos devolva a confiança na classe política. Alguém que trabalhe de verdade pelas pessoas que nele votarem.
+		    		</p>
+		    		<p>
+		    			Ataide Teruel é um homem da comunicação, que sabe da importância de usar a sua voz para defender os direitos da classe tão sofrida, humilhada  e cansada de políticos bandidos, sujos e corruptos.
+		    		</p>
+		    		<p>
+		    			<b>No dia 7 de outubro podemos fazer isso acontecer. Não apenas queira a mudança, ajude a promover essa mudança #VouFazerMinhaParte</b>
+		    		</p>
+    			</div>
+    		</div>
     	</div>
+    	<div class="bg"></div>
 		</section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="frase d-flex align-items-center" id="frase">
-      <div class="container">
-        <h1 class="text-uppercase text-white">
-        	
-        </h1>
-      </div>
-    </div>
-
-    <div class="causa">
+		<section class="compartilhar text-center" id="10amigos">
     	<div class="container">
-        <div class="row">
+    		<h1>Ajude a compartilhar a verdade</h1>
+    		<div class="row">
         	<div class="col-md-10 col-sm-12 offset-md-1">
-		        <h3 class="text-center"><span class="tt bg-warning p-2">MINHA CAUSA É POR AMOR AO BRASIL</span></h3>
-		        <ol>
-		        	<li><b class="text-uppercase">Lorem ipsum dolor sit amet:</b> consectetur adipisicing elit. Saepe ipsa qui error quos id quod architecto perferendis libero voluptate ipsam quisquam, in dolores velit natus ullam, cumque, repudiandae blanditiis deserunt.</li>
-		        	<li><b class="text-uppercase">Lorem ipsum dolor sit amet:</b> consectetur adipisicing elit. Saepe ipsa qui error quos id quod architecto perferendis libero voluptate ipsam quisquam, in dolores velit natus ullam, cumque, repudiandae blanditiis deserunt.</li>
-		        	<li><b class="text-uppercase">Lorem ipsum dolor sit amet:</b> consectetur adipisicing elit. Saepe ipsa qui error quos id quod architecto perferendis libero voluptate ipsam quisquam, in dolores velit natus ullam, cumque, repudiandae blanditiis deserunt.</li>
-		        	<li><b class="text-uppercase">Lorem ipsum dolor sit amet:</b> consectetur adipisicing elit. Saepe ipsa qui error quos id quod architecto perferendis libero voluptate ipsam quisquam, in dolores velit natus ullam, cumque, repudiandae blanditiis deserunt.</li>
-		        	<li><b class="text-uppercase">Lorem ipsum dolor sit amet:</b> consectetur adipisicing elit. Saepe ipsa qui error quos id quod architecto perferendis libero voluptate ipsam quisquam, in dolores velit natus ullam, cumque, repudiandae blanditiis deserunt.</li>
-		        </ol>
-		      </div>
-		    </div>
-      </div>
-    </div>
-    
-    <div class="frase-2-wp">
-	    <div class="frase-2">
-	      <div class="container text-center">
-	        <h2 class="text-uppercase text-danger">
-						ACEITE SEU PASSADO SEM ARREPENDIMENTOS, LIDE COM SEU PRESENTE COM CONFIANÇA E ENFRENTE SEU FUTURO SEM MEDO.
-	        </h2>
-	      </div>
-	    </div>
-    </div>
-
-   <div class="ajude text-center">
-    	<div class="container">
-        <div class="row">
-        	<div class="col-md-10 col-sm-12 offset-md-1">
-	    			<h3>AJUDE A COMPARTILHAR A VERDADE</h3>
-		        <div class="row">
+		    		<div class="row">
 		        	<div class="col-md-4">
-		        		<span class="img-bg bg-info" style="padding-top:35px;"><img src="images/icon-facebook.png" alt=""></span>
+		        		<span class="item-comp"><img src="images/icon-facebook.png" alt=""></span>
 		        		<p><h5>ACOMPANHA<br>FACEBOOK</h5></p>
 		        	</div>
 		        	<div class="col-md-4">
-		        		<span class="img-bg bg-warning"><img src="images/icon-monitor.png" alt=""></span>
+		        		<span class="item-comp"><img src="images/icon-comp.png" alt=""></span>
 		        		<p><h5>REPOSITÓRIO<br>DIGITAL</h5></p>
 		        	</div>
 		        	<div class="col-md-4">
-		        		<span class="img-bg bg-dark"><img src="images/icon-question.png" alt=""></span>
-		        		<p><h5>COMO AJUDAR</h5></p>
+		        		<span class="item-comp"><img src="images/icon-question.png" alt=""></span>
+		        		<p><h5>COMO<br>AJUDAR</h5></p>
 		        	</div>
 		        </div>
-					</div>
-				</div>
-      </div>
-    </div>
-		
-		<footer class="d-flex align-items-center bg-dark text-white">
+		    	</div>
+	    	</div>
+    	</div>
+		</section>
+    
+    <section class="frase">
       <div class="container text-center">
-        <div class="row">
-        	<div class="col-md-10 col-sm-12 offset-md-1">
-		      	<h4 class="text-uppercase">Convide 10 amigos para apoiar</h4>
-		      	<a href="#" class="btn btn-success mt-5">CONVIDAR</a>
-		      	<hr class="mt-5">
-		      	<p class="text-secondary mt-5">© ataideteruel.com.br | PORQUE SEU DIA MERECE SER FELIZ.</p>
-		      </div>
-	      </div>
+        <h1>Eu não apenas quero mudança, eu promovo a mudança</h1>
+				<h3>Você também pode e deve se envolver, faça a diferença votando em Ataide Teruel.</h3>
+				<a href="" class="text-uppercase">Convide 10 amigos para apoiar</a>
+      </div>
+    </section>
+
+    <footer class="text-white text-center">
+      <div class="container">
+	      <p class="text-secondary mt-5"><?php echo date('Y'); ?> © Ataíde Teruel | Todos os direitos reservados.</p>
       </div>
 		</footer>
-
-
-
-
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
