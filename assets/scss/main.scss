@@ -40,6 +40,13 @@ p {
   margin-bottom: 1.5rem;
 }
 
+.container {
+  @media (max-width: 767.98px) {
+	  padding-right: 30px!important;
+	  padding-left: 30px!important;
+	}
+}
+
 header {
 	background: #3c2d82;
 	padding-top:120px;
@@ -69,9 +76,15 @@ header {
 			width:100%;
 			&#nascimento {
 				width: calc(50% - 8px);
+				@media (max-width: 767.98px) {
+					width:100%;
+				}
 			}
 			&#celular {
 				width: 50%;
+				@media (max-width: 767.98px) {
+					width:100%;
+				}
 			}
 		}
 		.btn {
@@ -83,6 +96,72 @@ header {
 	    font-weight: 600;
 		}
 	}
+	@media (max-width: 1199.98px) {
+		padding-top:80px;
+		.logo-header {
+			max-width: 300px;
+		}
+	}
+	@media (max-width: 991.98px) {
+		padding:80px 0 40px 0;
+		margin-bottom: 60px;
+		.logo-header {
+			position:relative;
+			max-width: 250px;
+	    top: 70px;
+    	left: -60px;
+			float:right;
+		}
+		.foto-header {
+			float:left;
+		}
+	}
+	@media (max-width: 767.98px) {
+		padding:90px 0 20px 0;
+		.logo-header {
+	    top: 0;
+    	left: 0;
+    	float:none;
+    	display: block;
+    	margin: 0 auto;
+			margin-bottom:30px;
+		}
+	}
+}
+
+#mn-mobile {
+	position:fixed;
+  width:100%;
+  height:56px;
+  padding: 12px 40px 0;
+  background:#3c2d82;
+  left:0;
+  top:0;
+  z-index:99999;
+  color:#fff;
+  border-bottom: 1px solid #fff;
+  img {
+  	margin-left:10px;
+  	&.close {
+  		display: none;
+  	}
+  }
+	@media (min-width: 992px) {
+		display: none;
+	}
+	&.active {
+		img {
+	  	&.hbm {
+	  		display: none;
+	  	}
+	  	&.close {
+	  		display: inline-block;
+	  	}
+	  }
+	}
+  @media (max-width: 767.98px) {
+  	padding: 12px 30px 0;
+  }
 }
 
 nav.mn-desktop {
@@ -145,6 +224,64 @@ nav.mn-desktop {
 		padding:27px 0;
 		a {
 			text-decoration: none;
+			svg {
+				.st0{fill-rule:evenodd;clip-rule:evenodd;fill: #3C2D82;}
+				.st1{fill: #3C2D82;}
+			}
+		}
+	}
+	@media (max-width: 1199.98px) {
+		ul {
+			margin-left:32px;
+		}
+	}
+	@media (max-width: 991.98px) {
+		background: #555;
+		z-index:99999;
+    position: fixed;
+    top:0;
+    right:-250px;
+    width: 250px;
+    height: 100vh;
+    -webkit-transition: all .1s;
+  	transition: all .1s;
+    &.active {
+    	right:0;
+    }
+		.logo {
+			display: none;
+		}
+		ul {
+			margin-left:0;
+			float:none!important;
+			li {
+				display: block;
+				border-bottom: 2px solid rgba(0,0,0,0.3);
+				a {
+					color: #fff;
+		    	margin: 5px 0 5px .75em;
+		    	&.ajude {
+			    	margin-right: 0;
+		    		margin: 20px 0 20px .75em;
+					}
+					&.minhaparte {
+			    	margin-left: 0;
+		    		margin: 20px 0 20px .75em;
+					}	
+				}
+			}
+		}
+		.social-icons {
+			float:none!important;
+			display: block;
+			padding:0;
+			text-align: center;
+			a {
+				svg {
+					.st0{fill: #FFF;}
+					.st1{fill: #FFF;}
+				}
+			}
 		}
 	}
 }
@@ -167,6 +304,9 @@ nav.mn-desktop {
 .title-porque {
 	font-size: 3.5em;
 	margin: 60px 0;
+	@media (max-width: 767.98px) {
+		font-size: 2.5em;
+	}
 }
 
 section {
@@ -182,7 +322,10 @@ section {
 				bottom: 0;
 		    left: -110px;
 		    width: 100%;
-		    max-width: 700px;
+		    max-width: 700px;		    
+				@media (max-width: 1199.98px) {
+					display:none;
+				}
 			}
 		}
 	}
@@ -198,6 +341,23 @@ section {
 			width:50%;
 			height:100%;
 			background: url('../../images/foto-porque.jpg') no-repeat;
+			img {
+				display: none;
+			}
+		}
+		@media (max-width: 991.98px) {
+			padding-bottom:0;
+			.bg {
+				position: relative;
+				width:100%;
+				height:auto;
+				background: none;
+				margin-top: 40px;
+				img {
+					display: block;
+					width: 100%;
+				}
+			}
 		}
 	}
 	&.compartilhar{
