@@ -54,8 +54,8 @@ header {
 	.logo-header {
 		position:absolute;
 		max-width: 350px;
-    top: 25px;
-		left: 310px;
+		top: 95px;
+    left: 340px;
 	}
 	form.form-inline {
 		padding: 20px;
@@ -100,6 +100,7 @@ header {
 		padding-top:80px;
 		.logo-header {
 			max-width: 300px;
+			left: 300px;
 		}
 	}
 	@media (max-width: 991.98px) {
@@ -107,8 +108,8 @@ header {
 		margin-bottom: 60px;
 		.logo-header {
 			position:relative;
-			max-width: 250px;
-	    top: 70px;
+			max-width: 290px;
+    	top: 120px;
     	left: -60px;
 			float:right;
 		}
@@ -125,6 +126,7 @@ header {
     	display: block;
     	margin: 0 auto;
 			margin-bottom:30px;
+			width:100%;
 		}
 	}
 }
@@ -140,9 +142,10 @@ header {
   z-index:99999;
   color:#fff;
   border-bottom: 1px solid #fff;
+  cursor:pointer;
   img {
   	margin-left:10px;
-  	&.close {
+  	&.fechar {
   		display: none;
   	}
   }
@@ -154,7 +157,7 @@ header {
 	  	&.hbm {
 	  		display: none;
 	  	}
-	  	&.close {
+	  	&.fechar {
 	  		display: inline-block;
 	  	}
 	  }
@@ -176,7 +179,7 @@ nav.mn-desktop {
 		padding: 20px 0;
 	}
 	.logo {
-		width:110px;
+		width:222px;
 	}
 	ul {
 		padding:27px 0;
@@ -239,9 +242,9 @@ nav.mn-desktop {
 		background: #555;
 		z-index:99999;
     position: fixed;
-    top:0;
-    right:-250px;
-    width: 250px;
+    top:56px;
+    right:-270px;
+    width: 270px;
     height: 100vh;
     -webkit-transition: all .1s;
   	transition: all .1s;
@@ -254,6 +257,7 @@ nav.mn-desktop {
 		ul {
 			margin-left:0;
 			float:none!important;
+			padding-top: 0;
 			li {
 				display: block;
 				border-bottom: 2px solid rgba(0,0,0,0.3);

@@ -16,7 +16,7 @@
   <body>
 
     <div id="mn-mobile" class="text-right">
-    	Menu <img src="images/icon-mn-mobile.png" class="hbm"><img src="images/icon-close-mn-mobile.png" class="close">
+    	Menu <img src="images/icon-mn-mobile.png" class="hbm"><img src="images/icon-close-mn-mobile.png" class="fechar">
     </div>
 
    <header>
